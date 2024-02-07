@@ -1,0 +1,21 @@
+.land {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+@media (min-width: 320px) and (max-width: 425px) {
+    .land {
+        justify-content: center;
+        position: relative;
+        display: block;
+    }
+}
+.land1 {
+    position: -webkit-sticky;
+    position: sticky;
+    align-self: start;
+    top: 0;
+}
+body {
+    padding: 40px 40px 40px 40px;
+}

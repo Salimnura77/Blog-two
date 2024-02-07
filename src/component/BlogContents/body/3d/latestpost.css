@@ -1,0 +1,19 @@
+.hr1 {
+    border: 1px solid #005eb8;;
+    margin: 5px 0;
+}
+.latest-post-container {
+    margin-left: -150px;
+}
+li {
+    list-style: circle;
+    margin-bottom: 15px;
+}
+li a {
+    color: black;
+}
+.land1 {
+    align-self: self-start;
+    position: -webkit-sticky;
+    position: sticky;
+}

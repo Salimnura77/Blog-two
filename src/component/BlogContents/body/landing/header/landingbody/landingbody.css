@@ -1,0 +1,6 @@
+.blog-body-container-flex {
+    display: flex;
+}
+.blog-container-article {
+    padding: 10px auto 10px auto;
+}

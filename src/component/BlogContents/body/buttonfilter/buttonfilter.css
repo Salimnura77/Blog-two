@@ -1,0 +1,30 @@
+.f-button {
+    font-size: 20px;
+    background-color: #f2f9fd;
+    color: #005eb8;
+    border: none;
+    height: 40px;
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+    border-radius: 25px;
+    font-family: Tahoma, sans-serif;
+    font-variant: small-caps;
+    margin: 10px;
+}
+.f-button:hover{
+    background-color: #005eb8;
+    color: #f2f9fd;
+}
+.button-component{
+    margin-left: -10px;
+}
+.f-button a:hover {
+    color: white;
+}
+.active {
+    background-color: #005eb8;
+    color: #f2f9fd;
+}
+.buttons{
+    margin-bottom: 40px !important;
+}

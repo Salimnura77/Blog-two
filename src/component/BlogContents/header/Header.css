@@ -1,0 +1,29 @@
+.breadcrumb-list li {
+    list-style: none;
+    display: inline;
+    font-size: 18px;
+}
+.breadcrumb-list {
+    padding: 10px 16px;
+    width: auto;
+}
+.breadcrumb-list li a {
+    text-decoration: none;
+    color: rgb(101, 99, 99);
+    font-family: sans-serif;
+}
+.breadcrumb-list li+li:before {
+    padding: 8px;
+    color: black;
+    content: ">";
+}
+.b-h1 {
+    font-family: 'Trebuchet MS', sans-serif; 
+    font-variant: small-caps;
+    font-size: 50px;
+    color: #005eb8;
+}
+.breadcrumb-container {
+    margin-bottom: 90px;
+    margin-top: -10px;
+}
