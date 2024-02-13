@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import "./card.css";
 import gif1 from "./asset/Anima.gif"
 
-function Card2() {
+const Card2 = () => {
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);

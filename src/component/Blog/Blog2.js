@@ -11,7 +11,7 @@ import Latestpost from "../BlogContents/body/3d/latestpost";
 const Blog2 = () => {
   const card2 = "Apple";
   return (
-    <div>
+    <div className="body">
       <ScrollProgressBar />
       <Header  card = {card2}/>
       <Filterbuttons />

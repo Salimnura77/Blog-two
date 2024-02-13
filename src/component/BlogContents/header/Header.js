@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "./Header.css";
 
 const Header = (props) => {
@@ -6,9 +6,9 @@ const Header = (props) => {
         <div className="blog-header">
             <div className="breadcrumb-container">
                 <ul className="breadcrumb-list">
-                    <li><a href="/#">Home</a></li>
-                    <li><a href="/1#">Blog</a></li>
-                    <li><a href="/#">{props.card}</a></li>
+                    <li><NavLink>Home</NavLink></li>
+                    <li><NavLink to="/">Blog</NavLink></li>
+                    <li><NavLink>{props.card}</NavLink></li>
                 </ul>
             </div>
             <div className="blog-h1">

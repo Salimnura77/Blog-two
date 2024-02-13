@@ -8,7 +8,7 @@ import Latestpost from "../BlogContents/body/3d/latestpost";
 const Blog = () => {
   const card = "all categories"
   return (
-    <div>
+    <div className="body">
       <ScrollProgressBar />
       <Header  card = {card}/>
       <Filterbuttons />

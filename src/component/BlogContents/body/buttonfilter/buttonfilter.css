@@ -11,6 +11,21 @@
     font-variant: small-caps;
     margin: 10px;
 }
+@media (min-width: 320px) and (max-width: 425px) {
+    .f-button {
+        font-size: 10px;
+        background-color: #f2f9fd;
+        color: #005eb8;
+        border: none;
+        height: 20px;
+        text-decoration: none;
+        padding: 10px 20px 10px 20px;
+        border-radius: 25px;
+        font-family: Tahoma, sans-serif;
+        font-variant: small-caps;
+        margin: 10px;
+    }
+  }
 .f-button:hover{
     background-color: #005eb8;
     color: #f2f9fd;

@@ -10,7 +10,7 @@ import Latestpost from "../BlogContents/body/3d/latestpost";
 const Blog3 = () => {
   const card3 = "Business"
   return (
-    <div>
+    <div className="body">
       <ScrollProgressBar />
       <Header card = {card3}/>
       <Filterbuttons />

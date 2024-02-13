@@ -1,0 +1,7 @@
+.tradingview-widget-container {
+    width: 100%;
+}
+.tradingview-widget-container__widget{
+    width: 100% !important;
+    padding: 0 0 0 0 !important;
+}
