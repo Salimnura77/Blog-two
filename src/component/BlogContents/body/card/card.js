@@ -50,6 +50,8 @@ const Card = () => {
             <a href={article.url} className="card-a1">
             <div className="card-img">
               <img src={article.urlToImage} className="img01" />
+              <div className="card-hover">
+              </div>
             </div>
             <div className="card-article-wrapper">
               <div className="article-categories">tech</div>

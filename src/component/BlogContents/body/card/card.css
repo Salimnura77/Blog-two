@@ -34,6 +34,12 @@
   position: relative;
   width: 100%;
 }
+.card-hover{
+  transition: opacity 0.5s width 0.5s;
+  transition-timing-function: ease-in-out;
+  height: 100%;
+  opacity: 0;
+}
 .img01 {
   height: 100%;
   position: absolute;

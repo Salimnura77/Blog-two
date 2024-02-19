@@ -17,3 +17,6 @@ li a {
     position: -webkit-sticky;
     position: sticky;
 }
+.latest-post-title {
+    font-size: 15px;
+}

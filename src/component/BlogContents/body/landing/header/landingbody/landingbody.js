@@ -1,14 +1,12 @@
+import Landingheader from "../landingheader";
 import "./landingbody.css"
+import { Row , Col } from "reactstrap";
 
 const Landingbody = () => {
-    return (  
-        <div className="blog-body-container-flex">
-            <div className="blog-container-article">
-                The google
-            </div>
-            <div className="blog-container-navigator">
-                oodldld
-            </div>
+    return (
+        <div className="d-flex ">
+            <div class="col-8"><Landingheader/></div>
+            <div class="col-3">w</div>
         </div>
     );
 }

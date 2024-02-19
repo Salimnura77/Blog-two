@@ -44,7 +44,7 @@ const Card2 = () => {
 
   return (
   <div>
-  {data && (    
+  {data && (     
     <div className="card-container">
       {data.articles.map((article, index) => (
         <div className="card-trans">
